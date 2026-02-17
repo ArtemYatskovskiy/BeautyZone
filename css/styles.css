@@ -1,0 +1,61 @@
+:root {
+  --color-dark: #011c44;
+  --color-light: #2b7fff;
+  --color-wh: #ffffff;
+  --color-bl: #000000;
+  --color-gr1: #747272;
+  --color-gr2: #4a4a4a;
+}
+
+/*Base*/
+
+body {
+  color: var(--color-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/*Buttons*/
+
+.button-call {
+  color: var(--color-wh);
+  background-color: var(--color-light);
+  border: 2px solid var(--color-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-call:hover {
+  color: var(--color-dark);
+  background-color: transparent;
+}
+
+/*Links*/
+
+.link {
+  color: var(--color-dark);
+}
+.link:hover {
+  color: var(--color-light);
+}
+
+/*Sections*/
+
+.hero-title {
+  color: var(--color-light);
+}
+.accent {
+  color: var(--color-light);
+}
+.gr-1 {
+  color: var(--color-gr1);
+}
+.gr-2 {
+  color: var(--color-gr2);
+}
+.bl {
+  color: var(--color-bl);
+}
+.wh {
+  color: var(--color-wh);
+}
